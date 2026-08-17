@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- collapse-to-one: three bars narrowing to a single point -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M3,5 h18 v2 H3 Z M6,11 h12 v2 H6 Z M10,17 h4 v2 h-4 Z" />
+</vector>

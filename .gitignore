@@ -1,0 +1,21 @@
+# Android / Gradle build
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+build/
+
+# secrets / keystores (never commit signing keys or tokens)
+*.jks
+*.keystore
+release.properties
+
+# APK/AAB outputs
+*.apk
+*.aab

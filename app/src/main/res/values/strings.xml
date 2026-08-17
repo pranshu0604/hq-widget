@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HQ</string>
+    <string name="widget_desc">Your HQ NOW — current focus, next up, at a glance.</string>
+
+    <!-- TWA domain verification -->
+    <string name="asset_statements" translatable="false">
+        [{ \"relation\": [\"delegate_permission/common.handle_all_urls\"], \"target\": {\"namespace\": \"web\", \"site\": \"https://hq-three-mauve.vercel.app\"}}]
+    </string>
+
+    <!-- long-press app shortcuts -->
+    <string name="sc_capture_short">Capture</string>
+    <string name="sc_capture_long">Capture a thought</string>
+    <string name="sc_overwhelmed_short">Overwhelmed</string>
+    <string name="sc_overwhelmed_long">I\'m overwhelmed</string>
+    <string name="sc_inbox_short">Inbox</string>
+    <string name="sc_inbox_long">Open loops</string>
+</resources>

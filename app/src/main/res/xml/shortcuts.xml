@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="capture"
+        android:enabled="true"
+        android:icon="@drawable/ic_tile_capture"
+        android:shortcutShortLabel="@string/sc_capture_short"
+        android:shortcutLongLabel="@string/sc_capture_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hq.widget"
+            android:targetClass="com.hq.widget.CaptureActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="overwhelmed"
+        android:enabled="true"
+        android:icon="@drawable/ic_tile_overwhelmed"
+        android:shortcutShortLabel="@string/sc_overwhelmed_short"
+        android:shortcutLongLabel="@string/sc_overwhelmed_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://hq-three-mauve.vercel.app/state" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="inbox"
+        android:enabled="true"
+        android:icon="@drawable/ic_tile_capture"
+        android:shortcutShortLabel="@string/sc_inbox_short"
+        android:shortcutLongLabel="@string/sc_inbox_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://hq-three-mauve.vercel.app/inbox" />
+    </shortcut>
+
+</shortcuts>
